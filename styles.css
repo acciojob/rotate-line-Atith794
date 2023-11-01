@@ -8,5 +8,5 @@
 	top:50%;
 	left:50%;
 	transform-origin: center center;
-	transform: translateX(-50%) rotate(45deg);
+	transform: translateX(-50%) rotate(135deg);
 }

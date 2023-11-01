@@ -4,7 +4,9 @@ let angle=0;
 function rotateLin(){
 	angle += 2;
 	lin.style.transform = `translateX(-50%) rotate(${angle}deg)`;
-	requestAnimationFrame(rotateLin);
 }
-requestAnimationFrame(rotateLin);
+
+setInterval(rotateLin,20);
+
+// requestAnimationFrame(rotateLin);
 // rotateLin();
